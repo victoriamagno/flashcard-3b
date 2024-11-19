@@ -44,4 +44,19 @@ body {
 }
 .cartao_conteudo_pergunta p {
     color: var(--text-color);
+    font-weight: 500;
     }
+    .cartao_conteudo_resposta p {
+        color: var(--card-back-color);
+        font-weight: 700;
+}
+.cartao:hover .cartao_conteudo{
+    transform: rotateY(180deg);
+}
+.cartao_conteudo_pergunta
+.cartao_conteudo_resposta{
+    backface-visibility: hidden;
+    position: 100%;
+    width: 100%;
+}
+.cartao_conteudo_resposta
