@@ -59,4 +59,19 @@ body {
     position: 100%;
     width: 100%;
 }
-.cartao_conteudo_resposta
+.cartao_conteudo_resposta {
+    tranform: ratatey(180deg);
+}
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    botton: 0;
+    width: 100%
+    height: 2rem;
+}
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
